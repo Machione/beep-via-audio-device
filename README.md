@@ -12,7 +12,7 @@ All the functionality of the original Unix beep is preserved meaning that this c
 4. Make the beep code executable; `chmod +x /home/ryan/beep-via-audio-device/beep`.
 5. Add the location of the beep code to the beginning of your PATH environment variable. For the example location given above;
 ```bash
-echo 'export PATH="/home/ryan/beep-via-audio-device/beep:$PATH"' >> ~/.bashrc
+echo 'export PATH="/home/ryan/beep-via-audio-device:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
